@@ -14,7 +14,7 @@
 
 QQ邮箱:3392295184@qq.com
 
-目前版本只支持1.20版本的MC, 和RC-28的Slimefun
+目前版本使用的是1.20.1版本的API, 和RC-28的Slimefun
 
 并且只有中文版, 不过后续可能会有英文版本, 也欢迎感兴趣的玩家来帮我进行翻译!
 
@@ -40,7 +40,7 @@ Welcome to feedback bugs and give suggestions and supports,
 
 this is author's E-mail : 3392295184@qq.com
 
-The project now only supports 1.20 version of minecraft, and RC-28 of Slimefun
+The project now only supports 1.20.1 API, and RC-28 of Slimefun
 
 and only have Chinese versions, but maybe we'll have English versions later, also, welcome you to help me to translate it!
 
