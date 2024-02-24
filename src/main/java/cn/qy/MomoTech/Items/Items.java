@@ -48,7 +48,6 @@ public class Items {
     public static ItemStack MOMOTECH_EMPTY_SHELL = new CustomItemStack(Material.STRUCTURE_VOID, "§7空", "&f我真的不理解为什么这玩意是重要材料!", "§f§lNULL");
     public static ItemStack MOMOTECH_SYMBOL_ADDITION = new CustomItemStack(Material.BLAZE_POWDER, "§a符号 +", "§f+");
     public static ItemStack MOMOTECH_SYMBOL_SUBTRACTION = new CustomItemStack(Material.BLAZE_POWDER, "§a符号 -", "§f-");
-    public static ItemStack MOMOTECH_ID_GETTER = new CustomItemStack(Material.SLIME_BLOCK, "&a&lID获取器", "&e&l获取粘液物品id");
     public static ItemStack MOMOTECH_SYMBOL_MULTIPLICATION = new CustomItemStack(Material.BLAZE_POWDER, "§a符号 x", "§f*");
     public static ItemStack MOMOTECH_SYMBOL_DIVISION = new CustomItemStack(Material.BLAZE_POWDER, "§a符号 ÷", "§f/");
     public static ItemStack MOMOTECH_NONE = new CustomItemStack(new ItemStack(Material.BLACK_WOOL), "§8§lNONE", "§0一片虚无");
@@ -77,7 +76,7 @@ public class Items {
     public static ItemStack wbx = new CustomItemStack(new ItemStack(Material.COMMAND_BLOCK), "&e&lChenmose", "&7可爱捏~", "&7提供了一些主意, 是附属创始者之一", "&8&l我是不会告诉你他前期之后摆烂了", "&8QQ:1910428053");
     public static ItemStack sky = new CustomItemStack(new ItemStack(Material.COMMAND_BLOCK), "&a&lskybule", "&7提供了有趣的想法并帮忙进行了测试", "&7对作者提供了很大程度的帮助和支持!");
     public static ItemStack ELSE = new CustomItemStack(new ItemStack(Material.COMMAND_BLOCK), "&b&l其余感谢人员", "&fHiTech0926 第一次在服务器实装本附属", "&fResource agian111 进行了内测, 表达了支持与赞赏");
-    public static ItemStack plugin = new CustomItemStack(new ItemStack(Material.PAPER), "&f&l本附属名为MomoTech, 也可被成为乱码科技!", "&b这是一个开源项目, 感谢您的支持, 如需魔改或发现bug请联系作者", "&6本附属所有机器非注明用电的机器均不消耗电力(但是未注明的机器本身都会存储1J)", "&c&l所有机器只有在输出槽有空位时才会工作");
+    public static ItemStack plugin = new CustomItemStack(new ItemStack(Material.PAPER), "&f&l本附属名为MomoTech, 也可被成为乱码科技!", "&b这是一个开源项目, 感谢您的支持, 如需魔改或发现bug请联系作者", "&6本附属所有机器非注明用电的机器均不消耗电力(但是未注明的机器本身都会存储1J)", "&c&l所有机器只有在输出槽有空位时才会工作", "&e&l讨论QQ群聊:827684043");
     public static ItemStack BUGGGGG = new CustomItemStack(new ItemStack(Material.ENDER_CHEST), "&f&lBUGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG", "&8作者只是初中业余代码爱好者, 请不要喷我们, 欢迎您来QQ提出意见");
     public static ItemStack FULL = new CustomItemStack(new ItemStack(Material.EGG), "&6&l饱和护符", "&b总是饿?前期做不起别的?用我!", "&b右键后消耗并立马获得饱和效果");
     public static ItemStack DAMAGE_ITEM = new CustomItemStack(new ItemStack(Material.CHAIN_COMMAND_BLOCK), "&6&l奇怪的东西(?", "&e&l一击必杀!直接抹除!");
