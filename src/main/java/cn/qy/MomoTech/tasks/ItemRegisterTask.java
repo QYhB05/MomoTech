@@ -26,7 +26,7 @@ public class ItemRegisterTask {
         ItemStack[] empty = {null, null, null, null, new CustomItemStack(Material.PAPER, "&6&l未完成 敬请期待"), null, null, null, null};
         ItemStack[] digital__ = {
                 digital_constructor, increment, ordinary_number_combinator, null,
-                new CustomItemStack(Material.BOOK, "§e§l数字组件", "§f可以在 §b数字构造器 §f中获取", "§f可以在 §b基础数字运算机 §f中获取", "§f可以在 §b高级数字运算器 §f中获取", "§f可以在 §b递增器 §f中获取"), null, null, null, null
+                new CustomItemStack(Material.BOOK, "§e§l数字组件", "§f可以在 §b数字构造器 §f中获取", "§f可以在 §b基础数字运算机 §f中获取", "§f可以在 §b递增器 §f中获取"), null, null, null, null
         };
         ItemStack[] symbol = {
                 null, symbol_generator, null, null,
@@ -38,7 +38,7 @@ public class ItemRegisterTask {
         };
         ItemStack[] bug = {
                 increment, null, ordinary_number_combinator, null,
-                new CustomItemStack(Material.BOOK, "§e§lBUG - 运算式", "§7在 §f高级计算器 §7中利用不合法运算式获取"), null, null, null
+                new CustomItemStack(Material.BOOK, "§e§lBUG - 运算式", "§7在 §f所有计算机器 §7中利用不合法运算式获取"), null, null, null
         };
         ItemStack[] bug1 = {
                 null, null, null, null,
