@@ -34,7 +34,7 @@ This is a Slimefun addon.
 
 It includes many special machine and item to make you play more enjoyable!
 
-(For example, somthing could generate different kinds of stones/fishes/string/... even command blocks! Or something could effect you saturation in minecraft, there's more things are waiting for you explore!)
+(For example, somthing could generate different kinds of stones/fishes/string/... even command blocks! Or something could effect you saturation in minecraft, there's more things are waiting for you to explore!)
 
 This project is still processing (Maybe it will be update after 2024.6, because I need to prepare a exam).
 
