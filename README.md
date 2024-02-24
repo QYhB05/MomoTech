@@ -1,2 +1,51 @@
 # MomoTech
-A Slimefun addon to make mc better
+
+
+## 关于本附属
+这是一个Slimefun(粘液科技)的附属插件
+
+添加了许多机器和一些物品让你游玩起来更加顺畅!
+
+这个项目仍然在更新中 (或许是在2024年6月之后才能续更, 因为我将准备一场考试)
+
+作者是一个业余的中学生代码爱好者,  代码和一些其他方面可能不太完善, 但只要你提出意见, 我就会尽力去改进!
+
+欢迎您来向我的附属提出好的建议
+
+QQ邮箱:3392295184@qq.com
+
+目前版本只支持1.20版本的MC, 和RC-28的Slimefun
+
+并且只有中文版, 不过后续可能会有英文版本, 也欢迎感兴趣的玩家来帮我进行翻译!
+
+
+
+## 版本日志
+### 2024/2/24
+
+发布了第一个版本, 完善了主线的游玩路线
+
+
+
+## About
+This is a Slimefun addon.
+
+It includes many special machine and item in or to make you play more enjoyable!
+
+This project is still processing (Maybe it will be update after 2024.6, because I need to prepare a exam).
+
+The author is only a amateur code enthusiast, maybe there's something not fine, anyway if you give me suggestions, I'll try my best to get it.
+
+Welcome to feedback bugs and give suggestions and supports,
+
+this is author's E-mail : 3392295184@qq.com
+
+The project now only supports 1.20 version of minecraft, and RC-28 of Slimefun
+
+and only have Chinese versions, but maybe we'll have English versions later, also, welcome you to help me to translate it!
+
+
+## Version History
+### 2024/2/24
+
+Put out the fist version, it includes some machine and useful tool, and has its own main play route
