@@ -21,7 +21,6 @@ public class NumberCombinator {
         int date = Integer.parseInt(new SimpleDateFormat("yyyyMMdd").format(new Date()));
         int n = 0;
 
-        MomoTech.logger.info(String.valueOf(date));
         if (Maths.GetRandom((int) tps * 16777216 * 16) <= playerNumber * Double.parseDouble((new DecimalFormat("#.0000").format(i))))
             throw new Exceptions.NumberBugVException();
         if (i >= 16777216) throw new Exceptions.NumberBugIIIException();
