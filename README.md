@@ -30,6 +30,10 @@ QQ邮箱:3392295184@qq.com
 发布了第一个版本, 完善了主线的游玩路线
 
 
+## 2024/3/1
+
+因反馈使用的RC版本过低, 所以更新使用RC版本至RC-35
+
 
 ## About
 This is a minecraft server plugin and a Slimefun addon.
@@ -55,3 +59,7 @@ and only have Chinese versions, but maybe we'll have English versions later, als
 ### 2024/2/24
 
 Put out the fist version, it includes some machine and useful tool, and has its own main play route
+
+### 2024/3/1
+
+Change the RC-28 version to RC-35
