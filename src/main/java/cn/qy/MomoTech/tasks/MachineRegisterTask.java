@@ -5,6 +5,7 @@ import cn.qy.MomoTech.Items.Items;
 import cn.qy.MomoTech.Items.Machines.*;
 import cn.qy.MomoTech.MomoTech;
 import cn.qy.MomoTech.utils.MomotechItem;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import org.bukkit.Material;
@@ -56,7 +57,7 @@ public class MachineRegisterTask {
 
         };
         ItemStack[] quantityConstructor = {
-                creative_item, empty_shell_generator, creative_item_II,
+                creative_item, empty_shell_generator, creative_item_I,
                 qy, null, ch,
                 creative_item_generator, uncontrollable_empty, none_generator
         };
@@ -147,7 +148,7 @@ public class MachineRegisterTask {
         };
         ItemStack[] commandBlockGenerator = {
                 creative_item_II, none_, creative_item_II,
-                empty_shell, final_star, empty_shell,
+                empty_shell, new SlimefunItemStack("COMMAND_BLOCK_GETTER", Items.COMMAND_BLOCK_GETTER), empty_shell,
                 creative_item_II, none_, creative_item_II,
         };
         ItemStack[] generator = {
