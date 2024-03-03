@@ -21,7 +21,7 @@ public class ORE_GENERATOR extends AbstractEasyGeneratorGUI {
                 Material.DEEPSLATE_GOLD_ORE, Material.DEEPSLATE_COAL_ORE, Material.DEEPSLATE_COPPER_ORE, Material.DEEPSLATE_DIAMOND_ORE,
                 Material.DEEPSLATE_EMERALD_ORE, Material.COPPER_ORE
         };
-        return new ItemStack(list[Maths.GetRandom(17)], 4);
+        return new ItemStack(list[Maths.GetRandom(17)], 1);
     }
 
     @NotNull
