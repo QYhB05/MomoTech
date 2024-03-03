@@ -15,8 +15,8 @@ public class SAND_GENERATOR extends AbstractEasyGeneratorGUI {
 
     @Override
     public ItemStack getOut() {
-        Material[] list = {Material.SAND, Material.RED_SAND, Material.GRAVEL};
-        return new ItemStack(list[Maths.GetRandom(2)], 8);
+        Material[] list = {Material.SAND, Material.RED_SAND, Material.GRAVEL, Material.SOUL_SAND};
+        return new ItemStack(list[Maths.GetRandom(3)], 8);
     }
 
     @NotNull
