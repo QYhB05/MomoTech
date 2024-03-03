@@ -139,9 +139,7 @@ public class ItemRegisterTask {
             playerRightClickEvent.getPlayer().addPotionEffect(new PotionEffect(PotionEffectType.SATURATION, 99999999, 1, true, false));
         });
         Items.PROTECT_ITEM.getItemMeta().setUnbreakable(true);
-        SfUtils.RegisterItem("COMMAND_BLOCK_GETTER", Items.COMMAND_BLOCK_GETTER, Items.MOMOTECH_TOOL, RecipeType.MAGIC_WORKBENCH, commandBlockGetter, (ItemUseHandler) playerRightClickEvent -> {
-            playerRightClickEvent.getPlayer().getWorld().dropItem(playerRightClickEvent.getPlayer().getLocation(), new ItemStack(Material.COMMAND_BLOCK));
-        });
+        SfUtils.RegisterItem("COMMAND_BLOCK_GETTER", Items.COMMAND_BLOCK_GETTER, Items.MOMOTECH_TOOL, RecipeType.MAGIC_WORKBENCH, commandBlockGetter, (ItemUseHandler) PlayerRightClickEvent::cancel);
         SfUtils.RegisterItem("MOMOTECH_LIGHT_", Items.MOMOTECH_LIGHT_, Items.MOMOTECH_PHISICS, RecipeType.NULL, empty);
         SfUtils.RegisterItem("MOMOTECH_SOUND_", Items.MOMOTECH_SOUND_, Items.MOMOTECH_PHISICS, RecipeType.NULL, empty);
         SfUtils.RegisterItem("PROTECT_ITEM", Items.PROTECT_ITEM, Items.MOMOTECH_TOOL, RecipeType.ENHANCED_CRAFTING_TABLE, protectItem);
@@ -167,7 +165,6 @@ public class ItemRegisterTask {
         SfUtils.RegisterItem("QY", Items.QY, Items.MOMOTECH_THANKING, RecipeType.MAGIC_WORKBENCH, QY_);
         SfUtils.RegisterItem("CH", Items.wbx, Items.MOMOTECH_THANKING, RecipeType.MAGIC_WORKBENCH, wbx);
         SfUtils.RegisterItem("SKYBULE", Items.sky, Items.MOMOTECH_THANKING, RecipeType.NULL, empty);
-        SfUtils.RegisterItem("ELSE_THANKING_LIST", Items.ELSE, Items.MOMOTECH_THANKING, RecipeType.NULL, empty);
         SfUtils.RegisterItem("BUGGGG", Items.BUGGGGG, Items.MOMOTECH_THANKING, RecipeType.MAGIC_WORKBENCH, buggggg);
         SfUtils.RegisterItem("PLUGIN", Items.plugin, Items.MOMOTECH__, RecipeType.NULL, empty);
         SfUtils.RegisterItem("MOMOTECH_CREATIVE", Items.MOMOTECH_CREATIVE_ITEM, Items.MOMOTECH_ITEM, RecipeType.NULL, creative, (ItemUseHandler) PlayerRightClickEvent::cancel);
