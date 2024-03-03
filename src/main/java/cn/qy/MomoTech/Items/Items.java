@@ -15,7 +15,7 @@ public class Items {
     public static ItemStack QUANTITY_ITEM = new CustomItemStack(Material.PURPLE_DYE, "&c&l量化插件", "&6一个材料而已");
     public static ItemStack FROG_LIGHT_GENERATOR = new CustomItemStack(Material.OCHRE_FROGLIGHT, "&e蛙鸣灯生成器", "&7随机生成一种蛙鸣灯", "&7效率:4x");
     public static ItemStack STONE_GENERATOR = new CustomItemStack(Material.STONE, "&e石质生成器", "&7自动化生产三废石/圆石/深板岩圆石", "&7效率:8x");
-    public static ItemStack ORE_GENERATOR = new CustomItemStack(Material.DIAMOND_ORE, "&e原矿生成器", "&7自动化生产各种原矿", "&7效率:4x");
+    public static ItemStack ORE_GENERATOR = new CustomItemStack(Material.DIAMOND_ORE, "&e原矿生成器", "&7自动化生产各种原矿", "&7效率:1x");
     public static ItemStack SAND_GENERATOR = new CustomItemStack(Material.SANDSTONE, "&e沙质生成器", "&7自动化红沙/沙子/砂砾/灵魂沙", "&7效率:8x");
     public static ItemStack STONE_GENERATOR_I = new CustomItemStack(Material.COBBLESTONE, "&e定向圆石生成器", "&7自动化生产圆石", "&7效率:8x");
     public static ItemStack GLASS_GENERATOR = new CustomItemStack(Material.GLASS, "&e定向玻璃生成器", "&7自动化生产玻璃", "&7效率:8x");
@@ -29,7 +29,7 @@ public class Items {
     public static ItemStack COMMAND_BLOCK_GENERATOR = new CustomItemStack(Material.POLISHED_BLACKSTONE, "&b&l命令方块生成器", "&7&l什么?命令方块???", "&7效率:1x");
     public static ItemStack C_GENERATOR = new CustomItemStack(Material.COAL_BLOCK, "&e碳生成器", "&7这下前期碳解决了！", "&7效率:1x");
     public static ItemStack CREATIVE__ = new CustomItemStack(Material.GLASS_PANE, "&6纯净的始源", "&6终极,才刚开始");
-    public static ItemStack COMMAND_BLOCK_GETTER = new CustomItemStack(Material.SNOWBALL, "&6&l仿制品 &7- &6&l命&c&l令&a&l方&e&l块", "&7&l右键获取命令方块");
+    public static ItemStack COMMAND_BLOCK_GETTER = new CustomItemStack(Material.BARRIER, "&6&l仿制品 &7- &6&l命&c&l令&a&l方&e&l块");
     public static ItemStack MOMOTECH_DIGITAL = new CustomItemStack(SlimefunUtils.getCustomHead("80c4528e622bd318720d38e0e4599e69bf23308f89693920e0e4ecb55d1c0bac"), "§f数字组件", "§f0.0");
     public static ItemStack MOMOTECH_LETTER = new CustomItemStack(Material.SUGAR, "&6符号", "&fa", "&7凭空制造物质的基础");
     public static ItemStack MOMOTECH_ID_CARD = new CustomItemStack(Material.PAPER, "&eID卡", "&fID:", "&7在&cID集成器&7添加符号集成Slimefun ID", "&7合法ID可以在 &f制造台 &7中直接制作对应ID的粘液物品");
@@ -70,13 +70,12 @@ public class Items {
     public static ItemStack CreativeGenerator = new CustomItemStack(new ItemStack(Material.BLACK_WOOL), "§e发癫鸡", "§8⇨ §e⚡ §799,999,999 J/s");
     public static ItemStack MOMOTECH_NONE_GENERATOR = new CustomItemStack(new ItemStack(Material.DIRT), "&8&lNONE &f制造器", "&7当容器输入槽物品种类与堆叠数量均完全不同时生成一个&8&lNONE", "&7前期很好的&8&lNONE&7来源...");
     public static ItemStack MOMOTECH_CREATIVE_ITEM_II = new CustomItemStack(Material.END_CRYSTAL, "&6&l原始物质γ", "&7更进一步...");
-    public static ItemStack MOMOTECH_QUANTITY_CONSTRUCTOR = new CustomItemStack(Material.HONEY_BLOCK, "&f&l量化构造器", "&b填满特定物品进行量化获取材料!", "&c&l所有填满指的是没一个格子上都填这64堆叠的物品");
+    public static ItemStack MOMOTECH_QUANTITY_CONSTRUCTOR = new CustomItemStack(Material.HONEY_BLOCK, "&f&l量化构造器", "&b填满特定物品进行量化获取材料!", "&c&l所有填满指的是每一个格子上都填这64堆叠的物品");
     public static ItemStack MOMOTECH_BUG_CRYSTAL = new CustomItemStack(Material.NETHER_STAR, "&e&l来自BUG的结晶");
     public static ItemStack QY = new CustomItemStack(new ItemStack(Material.COMMAND_BLOCK), "&6&lQYhB05", "&7BUG制造者...", "&7编写了大部分本附属的屎山代码, 是附属创始者之一", "&7业余的代码爱好者", "&8QQ:3392295184");
     public static ItemStack wbx = new CustomItemStack(new ItemStack(Material.COMMAND_BLOCK), "&e&lChenmose", "&7可爱捏~", "&7提供了一些主意, 是附属创始者之一", "&8&l我是不会告诉你他前期之后摆烂了", "&8QQ:1910428053");
     public static ItemStack sky = new CustomItemStack(new ItemStack(Material.COMMAND_BLOCK), "&a&lskybule", "&7提供了有趣的想法并帮忙进行了测试", "&7对作者提供了很大程度的帮助和支持!");
-    public static ItemStack ELSE = new CustomItemStack(new ItemStack(Material.COMMAND_BLOCK), "&b&l其余感谢人员", "&fHiTech0926 第一次在服务器实装本附属", "&fResource agian111 进行了内测, 表达了支持与赞赏");
-    public static ItemStack plugin = new CustomItemStack(new ItemStack(Material.PAPER), "&f&l本附属名为MomoTech, 也可被成为乱码科技!", "&b这是一个开源项目, 感谢您的支持, 如需魔改或发现bug请联系作者", "&6本附属所有机器非注明用电的机器均不消耗电力(但是未注明的机器本身都会存储1J)", "&c&l所有机器只有在输出槽有空位时才会工作", "&e&l讨论QQ群聊:827684043");
+    public static ItemStack plugin = new CustomItemStack(new ItemStack(Material.PAPER), "&f&l本附属名为MomoTech, 也可被成为乱码科技!", "&b这是一个开源项目, 感谢您的支持, 如需魔改或发现bug请联系作者", "&b本附属所有机器非注明用电的机器均不消耗电力(但是未注明的机器本身都会存储1J)", "&c&l所有机器只有在输出槽有空位时才会工作", "&6&l讨论QQ群聊:827684043");
     public static ItemStack BUGGGGG = new CustomItemStack(new ItemStack(Material.ENDER_CHEST), "&f&lBUGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG", "&8作者只是初中业余代码爱好者, 请不要喷我们, 欢迎您来QQ提出意见");
     public static ItemStack FULL = new CustomItemStack(new ItemStack(Material.EGG), "&6&l饱和护符", "&b总是饿?前期做不起别的?用我!", "&b右键后消耗并立马获得饱和效果");
     public static ItemStack DAMAGE_ITEM = new CustomItemStack(new ItemStack(Material.CHAIN_COMMAND_BLOCK), "&6&l奇怪的东西(?", "&e&l一击必杀!直接抹除!");
