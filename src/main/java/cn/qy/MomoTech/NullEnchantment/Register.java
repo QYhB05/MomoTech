@@ -1,7 +1,5 @@
 package cn.qy.MomoTech.NullEnchantment;
 
-import cn.qy.MomoTech.Items.Machines.IDChanger;
-import cn.qy.MomoTech.Items.Machines.LetterConstructor;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemStack;
 
@@ -44,6 +42,6 @@ public class Register {
                 MOMOTECH_ENTROPY, MOMOTECH_ENTROPY_STAR, MOMOTECH_QUANTITY_ENTROPY, MOMOTECH_BLACK_HOLE, MOMOTECH_SINGULARITY,
                 MOMOTECH_LIGHT_, MOMOTECH_SOUND_, MOMOTECH_TIME_SPACE, MOMOTECH_ID_CHANGER, MOMOTECH_ID_PUTTER, MOMOTECH_LETTER_CONSTRUCTOR,
                 MOMOTECH_EMPTY_SHELL, MOMOTECH_SYMBOL_DIVISION, MOMOTECH_SYMBOL_ADDITION, MOMOTECH_SYMBOL_MULTIPLICATION, MOMOTECH_SYMBOL_SUBTRACTION,
-                CreativeGenerator});
+                CreativeGenerator, Cobblestone[99], MOMOTECH_NONE_GENERATOR, STAR_OF_ALL, MOMOTECH_BOX_OF_QUANTUM});
     }
 }
