@@ -63,13 +63,13 @@ public class Items {
     public static ItemStack MOMOTECH_ORDINARY_NUMBER_COMBINATOR = new CustomItemStack(new ItemStack(Material.SOUL_LANTERN), "§f基础计算器", "§7输入 §l数字组件 §7和 §l运算符(仅限四则运算) §7进行运算");
     public static ItemStack MOMOTECH_EMPTY_SHELL_GENERATOR = new CustomItemStack(Material.BLACK_CONCRETE_POWDER, "§7空生成器", "§7在左边放入任意物品后转换成空", "&7唔...终于做出来了...解放双手!", "&6效率:8x");
     public static ItemStack MOMOTECH_EMPTY_SHELL_GENERATOR_I = new CustomItemStack(Material.WHITE_CONCRETE_POWDER, "&7&l空生成器加强版", "&7无需输入, 生产更多的空!", "&6效率:64x");
-    public static ItemStack MOMOTECH_CREATIVE_ITEM = new CustomItemStack(Material.END_CRYSTAL, "&b&l原始物质α", "&7似乎有着大用处, 但好像只是个基础材料...", "&8&l消逝物质 : 因为某些原因这种物质和服务器粒子纠缠, 每一次重启都会失效...", "&8&lseed:" + MomoTech.seed);
-    public static ItemStack MOMOTECH_CREATIVE_ITEM_I = new CustomItemStack(Material.END_CRYSTAL, "&e&l原始物质β", "&7似乎有着大用处, 但好像只是个基础材料...", "&8&l消逝物质 : 因为某些原因这种物质和服务器粒子纠缠, 每一次重启都会失效...", "&8&lseed:" + MomoTech.seed);
+    public static ItemStack MOMOTECH_CREATIVE_ITEM = new CustomItemStack(Material.END_CRYSTAL, "&b&l原始物质α", "&7似乎有着大用处, 但好像只是个基础材料...");
+    public static ItemStack MOMOTECH_CREATIVE_ITEM_I = new CustomItemStack(Material.END_CRYSTAL, "&e&l原始物质β", "&7似乎有着大用处, 但好像只是个基础材料...");
     public static ItemStack MOMOTECH_CREATIVE_ITEM_GENERATOR = new CustomItemStack(Material.COBBLESTONE, "&f&l原始物质制造器", "&7当容器输入槽每一行的物品数量上 &f单调递增 &7输出一个原始物质β", "&7当容器内每一行的物品数量上 &f单调递减 &7输出一个原始物质α", "&8怎么有点乱序的影子...");
-    public static ItemStack MOMOTECH_UNCONTROLLABLE_EMPTY = new CustomItemStack(Material.GRAY_STAINED_GLASS_PANE, "§8§l§k123&f&l不可控空", "&8&l消逝物质 : 因为某些原因这种物质和服务器粒子纠缠, 每一次重启都会失效...", "&8&lseed:" + MomoTech.seed);
+    public static ItemStack MOMOTECH_UNCONTROLLABLE_EMPTY = new CustomItemStack(Material.GRAY_STAINED_GLASS_PANE, "§8§l§k123&f&l不可控空");
     public static ItemStack CreativeGenerator = new CustomItemStack(new ItemStack(Material.BLACK_WOOL), "§e发癫鸡", "§8⇨ §e⚡ §799,999,999 J/s");
     public static ItemStack MOMOTECH_NONE_GENERATOR = new CustomItemStack(new ItemStack(Material.DIRT), "&8&lNONE &f制造器", "&7当容器输入槽物品种类与堆叠数量均完全不同时生成一个&8&lNONE", "&7前期很好的&8&lNONE&7来源...");
-    public static ItemStack MOMOTECH_CREATIVE_ITEM_II = new CustomItemStack(Material.END_CRYSTAL, "&6&l原始物质γ", "&7更进一步...", "&8&l消逝物质 : 因为某些原因这种物质和服务器粒子纠缠, 每一次重启都会失效...", "&8&lseed:" + MomoTech.seed);
+    public static ItemStack MOMOTECH_CREATIVE_ITEM_II = new CustomItemStack(Material.END_CRYSTAL, "&6&l原始物质γ", "&7更进一步...");
     public static ItemStack MOMOTECH_QUANTITY_CONSTRUCTOR = new CustomItemStack(Material.HONEY_BLOCK, "&f&l量化构造器", "&b填满特定物品进行量化获取材料!", "&c&l所有填满指的是每一个格子上都填这64堆叠的物品");
     public static ItemStack MOMOTECH_BUG_CRYSTAL = new CustomItemStack(Material.NETHER_STAR, "&e&l来自BUG的结晶");
     public static ItemStack QY = new CustomItemStack(new ItemStack(Material.COMMAND_BLOCK), "&6&lQYhB05", "&7BUG制造者...", "&7编写了大部分本附属的屎山代码, 是附属创始者之一", "&7业余的代码爱好者", "&8QQ:3392295184", "&8&l消逝物质 : 因为某些原因这种物质和服务器粒子纠缠, 每一次重启都会失效...", "&8&lseed:" + MomoTech.seed);
