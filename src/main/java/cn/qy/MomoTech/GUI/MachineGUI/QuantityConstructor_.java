@@ -12,6 +12,8 @@ import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecip
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import org.bukkit.inventory.ItemStack;
 
+import java.util.Random;
+
 import static cn.qy.MomoTech.utils.MomotechItem.*;
 
 public abstract class QuantityConstructor_ extends AbstractGUI {
@@ -130,7 +132,7 @@ public abstract class QuantityConstructor_ extends AbstractGUI {
         }
         if (UncontrollableEmptyChecker(inv)) {
             ConsumeItems(inv);
-            if (Maths.GetRandom(20) == 1)
+            if (Math.abs(new Random().nextInt() % 2) == 0)
                 inv.pushItem(new SlimefunItemStack(creative_item_II, 1), getOutputSlots());
             return null;
         }
@@ -143,7 +145,7 @@ public abstract class QuantityConstructor_ extends AbstractGUI {
             if (inv.getItemInSlot(i) == null) return null;
             if (inv.getItemInSlot(i).getAmount() == 64) {
                 ConsumeItems(inv);
-                if (Maths.GetRandom(1000) == 0)
+                if (Maths.GetRandom(2000) == 0)
                     inv.pushItem(new SlimefunItemStack(quantity_item, 1), getOutputSlots());
                 return null;
             }
