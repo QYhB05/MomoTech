@@ -11,6 +11,8 @@ import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineRecip
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import org.bukkit.inventory.ItemStack;
 
+import java.util.Random;
+
 public abstract class FinalCopier_ extends AbstractGUI {
     protected FinalCopier_(ItemGroup itemGroup, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
         super(itemGroup, item, recipeType, recipe);
@@ -46,7 +48,7 @@ public abstract class FinalCopier_ extends AbstractGUI {
         if (!Utils.checkOutput(inv, getOutputSlots())) return null;
         if (inv.getItemInSlot(4) == null) return null;
         if (inv.getItemInSlot(1) == null) return null;
-        if (SlimefunUtils.isItemSimilar(inv.getItemInSlot(1), MomotechItem.uncontrollable_empty, true)) {
+        if (SlimefunUtils.isItemSimilar(inv.getItemInSlot(1), MomotechItem.box_of_quantum, true)) {
             inv.consumeItem(1, 1);
             ItemStack it = inv.getItemInSlot(4).clone();
             it.setAmount(1);
