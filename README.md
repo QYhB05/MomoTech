@@ -34,6 +34,10 @@ QQ邮箱:3392295184@qq.com
 
 因反馈使用的RC版本过低, 所以更新使用RC版本至RC-35
 
+## 2024/3/10
+
+添加物品和机器, 修复了量化构造器无法合成的bug, 并更新版本号为1.0.1
+
 
 ## About
 This is a minecraft server plugin and a Slimefun addon.
@@ -63,3 +67,7 @@ Put out the fist version, it includes some machine and useful tool, and has its 
 ### 2024/3/1
 
 Change the RC-28 version to RC-35
+
+### 2024/3/10
+
+Repair the bug and add more machines and items
