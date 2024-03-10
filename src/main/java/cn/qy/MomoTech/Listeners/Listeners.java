@@ -45,9 +45,17 @@ public final class Listeners implements Listener {
         if (e.getDamager() instanceof Player)
             if (SlimefunUtils.isItemSimilar(((Player) e.getDamager()).getInventory().getItemInMainHand(), new SlimefunItemStack("MOMOTECH_LIGHT_", Items.MOMOTECH_LIGHT_), true, false)) {
                 if (e.getEntity() instanceof Player) {
-                    Player p = ((Player)e.getEntity());
-                    ((Player) e.getEntity()).setHealth(p.getHealthScale() - p.getHealthScale() * 3 / 4);
+                    Player p = ((Player) e.getEntity());
+                    ((Player) e.getEntity()).setHealth(p.getHealthScale() - p.getHealthScale() * 0.75);
                 } else e.getEntity().remove();
             }
+        if (e.getDamager() instanceof Player) {
+            if (SlimefunUtils.isItemSimilar(((Player) e.getDamager()).getInventory().getItemInMainHand(), new SlimefunItemStack("STONE_SWORD", Items.STONE_SWORD), true, false)) {
+                e.setDamage(999999999999.99);
+                e.getEntity().setGlowing(true);
+                e.getEntity().setFreezeTicks(1000);
+                e.getEntity().setFireTicks(1000);
+            }
+        }
     }
 }
