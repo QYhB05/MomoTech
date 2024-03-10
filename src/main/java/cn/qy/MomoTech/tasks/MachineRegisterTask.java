@@ -187,9 +187,9 @@ public class MachineRegisterTask {
                 new ItemStack(Material.COBBLESTONE), new ItemStack(Material.COBBLESTONE), new ItemStack(Material.COBBLESTONE)
         };
         ItemStack[] table = {
-                quantum1_, box_of_quantum, quantum1_,
-                empty_shell, cobblestone_[7], empty_shell,
-                quantum_, quantum_, quantum_
+                quantum1_, quantity_item, quantum1_,
+                creative_item_II, cobblestone_[7], creative_item_II,
+                box_of_quantum, bugggg, box_of_quantum
         };
         ItemStack[] finalC = {
                 box_of_quantum, box_of_quantum, box_of_quantum,
