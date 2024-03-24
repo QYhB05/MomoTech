@@ -22,7 +22,7 @@ QQ邮箱:3392295184@qq.com
 
 并且只有中文版, 不过后续可能会有英文版本, 也欢迎感兴趣的玩家来帮我进行翻译!
 
-#注意:请使用最新版本, 旧版本可能存在没修复的bug
+# 注意:请使用最新版本, 旧版本可能存在没修复的bug
 
 ## 版本日志
 ### 2024/2/24
@@ -62,7 +62,7 @@ The project now uses 1.20.1 API of minecraft, and RC-35 of Slimefun
 
 and only have Chinese versions, but maybe we'll have English versions later, also, welcome you to help me to translate it!
 
-#You'd better use the latest version because maybe there's some bug in the old versions :D
+# You'd better use the latest version because maybe there's some bug in the old versions :D
 
 ## Version History
 ### 2024/2/24
