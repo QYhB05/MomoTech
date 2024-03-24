@@ -60,14 +60,14 @@ this is author's E-mail : 3392295184@qq.com
 
 The project now uses 1.20.1 API of minecraft, and RC-35 of Slimefun
 
-and only have Chinese versions, but maybe we'll have English versions later, also, welcome you to help me to translate it!
+and only have Chinese versions, but maybe we'll have English versions later, also, welcome you to help me translate it!
 
-# You'd better use the latest version because maybe there's some bug in the old versions :D
+# You'd better use the latest version because maybe there's some bugs in the old versions :D
 
 ## Version History
 ### 2024/2/24
 
-Put out the fist version, it includes some machine and useful tool, and has its own main play route
+Put out the fist version, it includes some machines and useful tools, and has its own main play route
 
 ### 2024/3/1
 
@@ -75,8 +75,8 @@ Changed the RC-28 version to RC-35
 
 ### 2024/3/10
 
-Repaired the bug and add more machines and items
+Fixed the bug and add more machines and items
 
 ### 2024/3/17
 
-Repaired the bug and add lots of machines and items
+Fixed the bug and add lots of machines and items
