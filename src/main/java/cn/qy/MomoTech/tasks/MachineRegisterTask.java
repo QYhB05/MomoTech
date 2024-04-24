@@ -312,53 +312,53 @@ public class MachineRegisterTask {
                 creative_item_II, quantity_item, new SlimefunItemStack("MOMOTECH_FOREVER", Items.MOMOTECH_FOREVER)
         };
         ItemStack[] ruleDustGenerator = {
-                new SlimefunItemStack("MOMOTECH_DUST_GENERATOR", Items.DUST_GENERATOR), new SlimefunItemStack("MOMOTECH_DUST_GENERATOR", Items.DUST_GENERATOR), new SlimefunItemStack("MOMOTECH_DUST_GENERATOR", Items.DUST_GENERATOR),
+                new SlimefunItemStack("MOMOTECH_DUST_GENERATOR0", Items.DUST_GENERATOR), new SlimefunItemStack("MOMOTECH_DUST_GENERATOR", Items.DUST_GENERATOR), new SlimefunItemStack("MOMOTECH_DUST_GENERATOR", Items.DUST_GENERATOR),
                 infinity, uncontrollable_empty, infinity,
                 shine_and_dark_ingot, rule_machine_star, shine_and_dark_ingot
         };
         ItemStack[] ruleDustGenerator1 = {
                 SlimefunItems.ALUMINUM_DUST, infinity, SlimefunItems.ALUMINUM_DUST,
-                empty_shell, new SlimefunItemStack("MOMOTECH_RULE_DUST_GENERATOR", Items.MOMOTECH_RULE_DUST_GENERATOR), empty_shell,
+                empty_shell, new SlimefunItemStack("MOMOTECH_RULE_DUST_GENERATOR0", Items.MOMOTECH_RULE_DUST_GENERATOR), empty_shell,
                 none_, none_, none_
         };
         ItemStack[] ruleDustGenerator2 = {
                 SlimefunItems.MAGNESIUM_DUST, infinity, SlimefunItems.MAGNESIUM_DUST,
-                empty_shell, new SlimefunItemStack("MOMOTECH_RULE_DUST_GENERATOR", Items.MOMOTECH_RULE_DUST_GENERATOR), empty_shell,
+                empty_shell, new SlimefunItemStack("MOMOTECH_RULE_DUST_GENERATOR0", Items.MOMOTECH_RULE_DUST_GENERATOR), empty_shell,
                 none_, none_, none_
         };
         ItemStack[] ruleDustGenerator3 = {
                 SlimefunItems.COPPER_DUST, infinity, SlimefunItems.COPPER_DUST,
-                empty_shell, new SlimefunItemStack("MOMOTECH_RULE_DUST_GENERATOR", Items.MOMOTECH_RULE_DUST_GENERATOR), empty_shell,
+                empty_shell, new SlimefunItemStack("MOMOTECH_RULE_DUST_GENERATOR0", Items.MOMOTECH_RULE_DUST_GENERATOR), empty_shell,
                 none_, none_, none_
         };
         ItemStack[] ruleDustGenerator4 = {
                 SlimefunItems.GOLD_DUST, infinity, SlimefunItems.GOLD_DUST,
-                empty_shell, new SlimefunItemStack("MOMOTECH_RULE_DUST_GENERATOR", Items.MOMOTECH_RULE_DUST_GENERATOR), empty_shell,
+                empty_shell, new SlimefunItemStack("MOMOTECH_RULE_DUST_GENERATOR0", Items.MOMOTECH_RULE_DUST_GENERATOR), empty_shell,
                 none_, none_, none_
         };
         ItemStack[] ruleDustGenerator5 = {
                 SlimefunItems.SILVER_DUST, infinity, SlimefunItems.SILVER_DUST,
-                empty_shell, new SlimefunItemStack("MOMOTECH_RULE_DUST_GENERATOR", Items.MOMOTECH_RULE_DUST_GENERATOR), empty_shell,
+                empty_shell, new SlimefunItemStack("MOMOTECH_RULE_DUST_GENERATOR0", Items.MOMOTECH_RULE_DUST_GENERATOR), empty_shell,
                 none_, none_, none_
         };
         ItemStack[] ruleDustGenerator6 = {
                 SlimefunItems.LEAD_DUST, infinity, SlimefunItems.LEAD_DUST,
-                empty_shell, new SlimefunItemStack("MOMOTECH_RULE_DUST_GENERATOR", Items.MOMOTECH_RULE_DUST_GENERATOR), empty_shell,
+                empty_shell, new SlimefunItemStack("MOMOTECH_RULE_DUST_GENERATOR0", Items.MOMOTECH_RULE_DUST_GENERATOR), empty_shell,
                 none_, none_, none_
         };
         ItemStack[] ruleDustGenerator7 = {
                 SlimefunItems.TIN_DUST, infinity, SlimefunItems.TIN_DUST,
-                empty_shell, new SlimefunItemStack("MOMOTECH_RULE_DUST_GENERATOR", Items.MOMOTECH_RULE_DUST_GENERATOR), empty_shell,
+                empty_shell, new SlimefunItemStack("MOMOTECH_RULE_DUST_GENERATOR0", Items.MOMOTECH_RULE_DUST_GENERATOR), empty_shell,
                 none_, none_, none_
         };
         ItemStack[] ruleDustGenerator8 = {
                 SlimefunItems.ZINC_DUST, infinity, SlimefunItems.ZINC_DUST,
-                empty_shell, new SlimefunItemStack("MOMOTECH_RULE_DUST_GENERATOR", Items.MOMOTECH_RULE_DUST_GENERATOR), empty_shell,
+                empty_shell, new SlimefunItemStack("MOMOTECH_RULE_DUST_GENERATOR0", Items.MOMOTECH_RULE_DUST_GENERATOR), empty_shell,
                 none_, none_, none_
         };
         ItemStack[] ruleDustGenerator9 = {
                 SlimefunItems.IRON_DUST, infinity, SlimefunItems.IRON_DUST,
-                empty_shell, new SlimefunItemStack("MOMOTECH_RULE_DUST_GENERATOR", Items.MOMOTECH_RULE_DUST_GENERATOR), empty_shell,
+                empty_shell, new SlimefunItemStack("MOMOTECH_RULE_DUST_GENERATOR0", Items.MOMOTECH_RULE_DUST_GENERATOR), empty_shell,
                 none_, none_, none_
         };
         ItemStack[] uGenerator = {
