@@ -73,6 +73,7 @@ public class DigitalGenerator extends AbstractElectricGUI implements EnergyNetCo
                 if (SlimefunUtils.isItemSimilar(inv.getItemInSlot(i), MomotechItem.digital(0), false, false)) {
                     String str = Objects.requireNonNull(inv.getItemInSlot(i).getLore()).get(0);
                     int j = (int) Double.parseDouble(str.substring(str.indexOf('f') + 1));
+                    if (this.getCharge(inv.getLocation()) + j <= 0) return false;
                     this.setCharge(inv.getLocation(), this.getCharge(inv.getLocation()) + j);
                     inv.consumeItem(i, 1);
                     return false;
