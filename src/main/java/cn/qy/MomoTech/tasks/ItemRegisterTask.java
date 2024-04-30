@@ -620,7 +620,6 @@ public class ItemRegisterTask {
             p.setMaxHealth(1.0);
             p.addPotionEffect(new PotionEffect(PotionEffectType.DARKNESS, 10, 1, true, false));
             w.spawnParticle(Particle.FALLING_LAVA, l, 10, 3, 3, 3);
-            w.createExplosion(l, 1.0F);
         });
         SfUtils.RegisterItem("MOMOTECH_ENERGY_QUANTUM", Items.MOMOTECH_ENERGY_QUANTUM, Items.MOMOTECH_ITEM, rc2, energyQuantum);
         SfUtils.RegisterItem("MOMOTECH_RANDOM_QUANTUM", Items.MOMOTECH_RANDOM_QUANTUM, Items.MOMOTECH_ITEM, RecipeType.NULL, randomQuantum, (ItemUseHandler) playerRightClickEvent -> {
@@ -661,7 +660,6 @@ public class ItemRegisterTask {
             p.setFreezeTicks(100);
             p.setWalkSpeed(1.0F);
             w.spawnParticle(Particle.FALLING_HONEY, l, 30, 3, 3, 3);
-            w.createExplosion(l, 1.0F);
             p.addPotionEffect(new PotionEffect(PotionEffectType.INVISIBILITY, 60, 1, true, false));
             p.sendRawMessage("你触发了某些东西...");
         });
