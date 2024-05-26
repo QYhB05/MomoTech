@@ -312,7 +312,7 @@ public class MachineRegisterTask {
                 creative_item_II, quantity_item, new SlimefunItemStack("MOMOTECH_FOREVER", Items.MOMOTECH_FOREVER)
         };
         ItemStack[] ruleDustGenerator = {
-                new SlimefunItemStack("MOMOTECH_DUST_GENERATOR0", Items.DUST_GENERATOR), new SlimefunItemStack("MOMOTECH_DUST_GENERATOR", Items.DUST_GENERATOR), new SlimefunItemStack("MOMOTECH_DUST_GENERATOR", Items.DUST_GENERATOR),
+                new SlimefunItemStack("MOMOTECH_DUST_GENERATOR", Items.DUST_GENERATOR), new SlimefunItemStack("MOMOTECH_DUST_GENERATOR", Items.DUST_GENERATOR), new SlimefunItemStack("MOMOTECH_DUST_GENERATOR", Items.DUST_GENERATOR),
                 infinity, uncontrollable_empty, infinity,
                 shine_and_dark_ingot, rule_machine_star, shine_and_dark_ingot
         };
