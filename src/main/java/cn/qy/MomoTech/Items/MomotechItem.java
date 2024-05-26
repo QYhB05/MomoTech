@@ -22,7 +22,7 @@ public class MomotechItem {
     public static final SlimefunItemStack symbol_addition = new SlimefunItemStack("MOMOTECH_SYMBOL_ADDITION", Items.MOMOTECH_SYMBOL_ADDITION);
     public static final SlimefunItemStack symbol_division = new SlimefunItemStack("MOMOTECH_SYMBOL_DIVISION", Items.MOMOTECH_SYMBOL_DIVISION);
     public static final SlimefunItemStack symbol_subtraction = new SlimefunItemStack("MOMOTECH_SYMBOL_SUBTRACTION", Items.MOMOTECH_SYMBOL_SUBTRACTION);
-    public static final SlimefunItemStack symbol_multiplication = new SlimefunItemStack("MOMOTECH_SYMBOL_ADDITION", Items.MOMOTECH_SYMBOL_MULTIPLICATION);
+    public static final SlimefunItemStack symbol_multiplication = new SlimefunItemStack("MOMOTECH_SYMBOL_MULTIPLICATION", Items.MOMOTECH_SYMBOL_MULTIPLICATION);
     public static final SlimefunItemStack bug1 = new SlimefunItemStack("MOMOTECH_NUMBER_BUG_I", Items.MOMOTECH_NUMBER_BUG_I);
     public static final SlimefunItemStack bug2 = new SlimefunItemStack("MOMOTECH_NUMBER_BUG_II", Items.MOMOTECH_NUMBER_BUG_II);
     public static final SlimefunItemStack bug3 = new SlimefunItemStack("MOMOTECH_NUMBER_BUG_III", Items.MOMOTECH_NUMBER_BUG_III);
