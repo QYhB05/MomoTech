@@ -36,7 +36,7 @@ public class MomoTech extends JavaPlugin implements SlimefunAddon {
         getLogger().info("---------< MomoTech >-------");
         getLogger().info("|      Authors:QYhB05      |");
         getLogger().info("|      Plugin:MomoTech     |");
-        getLogger().info("|      Version:1.1.9       |");
+        getLogger().info("|      Version:1.1.10      |");
         getLogger().info("----------------------------");
         getLogger().info("> 依赖项:SlimeFun4");
         getLogger().info("> 感谢Chenmose, skybule提供想法");
