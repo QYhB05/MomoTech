@@ -68,8 +68,15 @@ public class IDChanger extends AbstractGUI implements RecipeDisplayItem {
             return;
         }
         try {
-            inv.pushItem(Objects.requireNonNull(SlimefunItem.getById(lore)).getItem().clone(), getOutputSlots());
-            inv.consumeItem(1, 1);
+            SlimefunItem it = SlimefunItem.getById(lore);
+            if (it != null) {
+                if (!it.isDisabled()) {
+                    inv.pushItem(it.getItem().clone(), getOutputSlots());
+                } else {
+                    inv.pushItem(new CustomItemStack(Material.PAPER, "&7这个物品已经被禁用了!"));
+                }
+                inv.consumeItem(1, 1);
+            }
         } catch (NullPointerException e) {
             inv.pushItem(new CustomItemStack(Material.PAPER, "&7不好意思你的输入不合法"), 1);
         }
