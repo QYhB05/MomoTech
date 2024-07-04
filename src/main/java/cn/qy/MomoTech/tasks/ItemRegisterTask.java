@@ -47,7 +47,7 @@ public class ItemRegisterTask {
         };
         ItemStack[] emptyShell = {
                 null, null, null, null,
-                new CustomItemStack(Material.BOOK, "§e§l空", "§f在方块被挖取的时候随机掉落"), null, null, null, null
+                new CustomItemStack(Material.BOOK, "§e§l空", "§f在手持木镐挖方块时候随机掉落"), null, null, null, null
         };
         ItemStack[] bug = {
                 increment, null, ordinary_number_combinator, null,
