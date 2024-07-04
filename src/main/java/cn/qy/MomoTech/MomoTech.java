@@ -36,16 +36,13 @@ public class MomoTech extends JavaPlugin implements SlimefunAddon {
         getLogger().info("---------< MomoTech >-------");
         getLogger().info("|      Authors:QYhB05      |");
         getLogger().info("|      Plugin:MomoTech     |");
-        getLogger().info("|      Version:1.1.10      |");
+        getLogger().info("|      Version:1.1.11      |");
         getLogger().info("----------------------------");
-        getLogger().info("> 依赖项:SlimeFun4");
-        getLogger().info("> 感谢Chenmose, skybule提供想法");
         getLogger().info("> QQ反馈群:827684043");
         getLogger().info("> E-mail:3392295184@qq.com");
         getLogger().info("> 使用的API版本: 1.20.1-R0.1-SNAPSHOT");
         getLogger().info("> 使用的SlimeFun4版本: RC-35");
         getLogger().info("> 使用的License:MIT");
-        getLogger().info("> 下载链接:https://github.com/QYhB05/MomoTech/tree/main");
         getLogger().info("----------------------------");
         getLogger().info("载入附属中...");
         instance = this;
@@ -62,7 +59,6 @@ public class MomoTech extends JavaPlugin implements SlimefunAddon {
         getLogger().info("开始注册机器");
         MachineRegisterTask.run(getLogger());
         getLogger().info("机器注册成功");
-        getLogger().info("所有物品注册完毕, 附属已成功启动, 再次感谢您的支持");
     }
 
     @Override
